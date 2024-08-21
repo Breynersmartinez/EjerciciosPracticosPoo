@@ -15,3 +15,4 @@ return BaseCuadrado*BaseCuadrado;
 
 
 /*https://byspel.com/calcular-dos-sumas-y-su-producto-en-java-utilizando-metodos/ */
+/*https://www.forosdelweb.com/f45/suma-dos-numeros-con-metodo-java-1047788/*/
