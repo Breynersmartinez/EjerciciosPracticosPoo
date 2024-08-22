@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class Ejecucion {
+public class Ejecuci {
     public static void main(String[]args)throws Exception{
         //Objeto scanner 
         Scanner scanner = new Scanner(System.in);
