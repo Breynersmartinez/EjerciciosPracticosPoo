@@ -12,6 +12,6 @@ Double comision = scanner.nextDouble();
 
 SalarioEmpleado salarioEmpleado = new SalarioEmpleado(SalBruto, deducciones, comision);
 Double SalarioNeto = salarioEmpleado.CalculoSalNeto();
-System.out.println(" El salario neto del empleado es: " + SalarioNeto );
+System.out.println(" El salario neto del empleado es: " + SalarioNeto +" $ ");
     }
 }
