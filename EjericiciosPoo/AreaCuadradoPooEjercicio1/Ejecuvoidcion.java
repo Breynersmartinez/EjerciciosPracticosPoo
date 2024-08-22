@@ -3,10 +3,10 @@ public class Ejecuvoidcion {
     public static void main(String[]args)throws Exception{
        
 Scanner scanner = new Scanner(System.in);
-System.out.println("Ingrese la base del cuadrado ");
+System.out.println(" Ingrese la base del cuadrado ");
     Double BaseCuadrado = scanner.nextDouble();
 
- // Crea Objeto de la clase AreaCuadrado y calcula hace el procedimiento.
+ // Crea Objeto de la clase AreaCuadrado y  hace el procedimiento.
  AreaCuadrado areaCuadrado = new AreaCuadrado(BaseCuadrado);
 
 

@@ -12,13 +12,12 @@ public class Ejecucion {
         System.out.println(" Ingrese los grados fahrenheit para convertirlos a centigrados ");
         Double grados_f = scanner.nextDouble();
 
-        ConversorGrados conversorGrados = new ConversorGrados(grados_c);
+        ConversorGrados conversorGrados = new ConversorGrados(grados_c, grados_f);
         Double RespuestaConversionCen_fahr = conversorGrados.ConversionCen_Fahr();
         System.out.println(" Los grados centigrados  convertidos a fahrenheit "+RespuestaConversionCen_fahr);
         
-       ConversorGrados conversorGrados = new ConversorGrados(grados_f);
-        Double RespuestaConversionCenFahrCen = conversorGrados.ConversionFahr_Cen;
-        System.out.println(" Los grados fahrenheit  convertidos a centigrados " +RespuestaConversionCenFahrCen); */
+        Double RespuestaConversionCenFahrCen = conversorGrados.ConversionFahr_Cen();
+        System.out.println(" Los grados fahrenheit  convertidos a centigrados " + RespuestaConversionCenFahrCen); 
 
     }
 }
