@@ -8,6 +8,6 @@
 
     public Double CalculoHoras(){
         int ValorHora=2000;
-        return Horas * ValorHora;
+        return (Horas * ValorHora)/20*100;
     }
 }
