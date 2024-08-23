@@ -7,7 +7,11 @@
     }
 
     public Double CalculoHoras(){
-        int ValorHora=2000;
-        return (Horas * ValorHora)/20*100;
+        //Valor de hora, ya con el iva discriminado
+
+        Double iva=0.20;
+        Double  ValorHora =2000/(1+iva);
+       
+        return (ValorHora*1.20)*Horas;
     }
 }
