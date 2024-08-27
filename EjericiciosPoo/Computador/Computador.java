@@ -1,36 +1,40 @@
- class computador {
+public class Computador {
+
+    // Atributos de la clase
     private String marca;
     private String color;
     private String modelo;
     private int serie;
-    private Double pulgadas;
+    private double pulgadasPantalla;
 
-    public computador( String marca, String color, String modelo, int serie, Double pulgadas){
-        
-        
-        //es un puntero hacia la instancia del objeto o una autoreferecnai 
+    // Método Constructor de la Clase
+    public Computador(String marca, String color, String modelo, int serie, double pulgadasPantalla) {
         this.marca = marca;
         this.color = color;
         this.modelo = modelo;
         this.serie = serie;
-        this.pulgadas = pulgadas;
+        this.pulgadasPantalla = pulgadasPantalla;
     }
 
-    public boolean encender(){
+    // Métodos de la clase
+    public boolean encender() {
         return true;
-    }
-    public boolean apagar(){
-        return true;
-    }
-    public void  recibir( String oficina){
-        System.out.println( " El computador de marca "+marca+" El computador se reubico en la oficina " + oficina);
-    }
-    public void  asignar(String trabajador){
-        System.out.println(" El computador con serie "+ serie +" fue asignado a " +trabajador);
     }
 
-    /* Metodo toString  es la mama de los metodos, sirve para mostrar el objeto */
-    public String toString(){
-        return "Computador{ marca: "+marca+" color: "+color+" modelo: " + modelo + " serie: "+ serie+ " Pulgadas: " + pulgadas + "}";
+    public boolean apagar() {
+        return true;
+    }
+
+    public void reubicar(String oficina) {
+        System.out.println("El computador de marca " + marca + " se reubicó en la oficina " + oficina);
+    }
+
+    public void asignar(String trabajador) {
+        System.out.println("El computador con serie " + serie + " fue asignado a: " + trabajador);
+    }
+
+    public String toString() {
+        return "Computador { marca: " + marca + " color: " + color + " modelo: " + modelo + " serie: " + serie
+                + " pulgadas: " + pulgadasPantalla + " }";
     }
 }
