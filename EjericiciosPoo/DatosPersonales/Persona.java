@@ -8,16 +8,17 @@ class Persona {
     private Double peso;
     private Double altura;
 
-    public Persona( String nombre, int edad, Double DNI, String sexo, String hombre, String mujer, Double peso, Double altura){
-
+    public Persona(   Double peso, Double altura){  
+        this.peso = peso;
+        this.altura = altura;
+    }
+    public persona(String nombre, int edad, Double DNI, String sexo, String hombre, String mujer){
         this.nombre = nombre;
         this.edad = edad;
         this.DNI = DNI;
         this.sexo = sexo;
         this.hombre = hombre;
         this.mujer = mujer;
-        this.peso = peso;
-        this.altura = altura;
     }
  public Double calcularIMC(){
 

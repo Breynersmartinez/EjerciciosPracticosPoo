@@ -13,6 +13,8 @@ public class Ejecucion {
         Double grados_f = scanner.nextDouble();
 
         ConversorGrados conversorGrados = new ConversorGrados(grados_c, grados_f);
+        
+    
         Double RespuestaConversionCen_fahr = conversorGrados.ConversionCen_Fahr();
         System.out.println(" Los grados centigrados  convertidos a fahrenheit "+RespuestaConversionCen_fahr);
         

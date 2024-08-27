@@ -13,4 +13,6 @@ class SalarioEmpleado {
     public Double CalculoSalNeto(){
         return (SalBruto - deducciones) + comision;
     }
+
+   
 }

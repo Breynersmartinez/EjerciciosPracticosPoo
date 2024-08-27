@@ -20,3 +20,6 @@ Crea 3 objetos de la clase anterior, el primer objeto obtendrá las anteriores v
 Para cada objeto, deberá comprobar si esta en su peso ideal, tiene sobrepeso o por debajo de su peso ideal con un mensaje.
 Indicar para cada objeto si es mayor de edad.
 Por último, mostrar la información de cada objeto.
+
+
+Enlace del proble https://www.discoduroderoer.es/ejercicios-propuestos-y-resueltos-programacion-orientado-a-objetos-java/

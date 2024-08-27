@@ -19,7 +19,7 @@ public class EjecucionProcesos {
         } else if(RespuestaIMC > 25){
             System.out.println( " usted tiene sobre peso ");
         } else {
-System.out.println(" Su peso es ideal con respecto a ssu altura ");
+            System.out.println(" Su peso es ideal con respecto a ssu altura ");
         }
         
        

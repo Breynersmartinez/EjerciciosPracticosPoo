@@ -10,7 +10,8 @@ Double deducciones = scanner.nextDouble();
 System.out.println(" Ingrese la comision del empleado ");
 Double comision = scanner.nextDouble();
 
-SalarioEmpleado salarioEmpleado = new SalarioEmpleado(SalBruto, deducciones, comision);
+SalarioEmpleado salarioEmpleado = new SalarioEmpleado( SalBruto, deducciones, comision);
+
 Double SalarioNeto = salarioEmpleado.CalculoSalNeto();
 System.out.println(" El salario neto del empleado es: " + SalarioNeto +" $ ");
     }
