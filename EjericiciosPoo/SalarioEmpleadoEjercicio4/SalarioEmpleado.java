@@ -13,6 +13,8 @@ class SalarioEmpleado {
     public Double CalculoSalNeto(){
         return (SalBruto - deducciones) + comision;
     }
-
+public String toString(){
+    return " Empleado: {    Salario Bruto:"+  SalBruto + " Deducciones " +deducciones + " Comision " + comision +". }";
+}
    
 }

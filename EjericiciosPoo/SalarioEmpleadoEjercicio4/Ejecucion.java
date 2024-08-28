@@ -14,5 +14,6 @@ SalarioEmpleado salarioEmpleado = new SalarioEmpleado( SalBruto, deducciones, co
 
 Double SalarioNeto = salarioEmpleado.CalculoSalNeto();
 System.out.println(" El salario neto del empleado es: " + SalarioNeto +" $ ");
+System.out.println(salarioEmpleado.toString());
     }
 }
