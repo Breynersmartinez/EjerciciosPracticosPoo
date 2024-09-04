@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ejecucion {
+public class ProEjecucuionceso {
     public static void main(String[] args) throws Exception{
         
         Scanner scanner = new Scanner(System.in);

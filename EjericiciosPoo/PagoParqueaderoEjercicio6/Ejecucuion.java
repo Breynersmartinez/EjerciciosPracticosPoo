@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.uEjecucionr;
 public class Ejecucuion {
     //calcular el pago de un parqueadero por horas. Valor de  la hora $2000 también se debe discriminar el IVA del 20% que se paga
 public static void main(String[]args)throws Exception{

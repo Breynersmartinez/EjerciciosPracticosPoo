@@ -1,0 +1,99 @@
+Taller de Programaci´on Orientada a Objetos en
+Java
+Jhon Haide Cano Beltr´an
+September 2, 2024
+Objetivo del Taller
+El objetivo de este taller es que los estudiantes apliquen conceptos b´asicos de
+la Programaci´on Orientada a Objetos (POO) en Java, enfoc´andose en el modelado de clases individuales que representen problemas del mundo real. Los
+estudiantes se familiarizar´an con la creaci´on de clases, instanciaci´on de objetos,
+definici´on de m´etodos y manipulaci´on de atributos.
+Duraci´on del Taller
+4 horas
+Materiales Necesarios
+• Computadora con entorno de desarrollo Java (Eclipse, IntelliJ IDEA, NetBeans, CodeSpaces(GitHub).)
+• Conexi´on a Internet (opcional para consultas y recursos adicionales)
+• Acceso a la documentaci´on de Java (Java API)
+Contenido del Taller
+1. Introducci´on a la POO en Java (30 minutos)
+• Breve repaso de los conceptos b´asicos de POO: clases, objetos, m´etodos y
+atributos.
+1
+2. Ejercicio Pr´actico 1: Modelado de una Clase Simple (45
+minutos)
+Objetivo: Crear una clase CuentaBancaria que represente una cuenta de
+banco con atributos como n´umero de cuenta, saldo y titular. Implementar
+m´etodos para depositar, retirar dinero y consultar el saldo.
+• Definir la clase CuentaBancaria con los atributos mencionados.
+• Implementar los m´etodos depositar(double cantidad), retirar(double
+cantidad) y consultarSaldo().
+• Crear instancias de la clase CuentaBancaria y realizar operaciones de
+dep´osito, retiro y consulta de saldo.
+Resultado Esperado: Los estudiantes deben ser capaces de crear instancias
+de la clase y manipular sus atributos mediante m´etodos espec´ıficos, reflejando
+operaciones bancarias comunes.
+
+
+3. Ejercicio Pr´actico 2: Modelado de una Clase Compleja
+(60 minutos)
+Objetivo: Implementar una clase Libro que represente un libro en una biblioteca con atributos como t´ıtulo, autor, ISBN, y n´umero de p´aginas. Crear
+m´etodos para prestar el libro, devolverlo y verificar si est´a disponible.
+• Definir la clase Libro con atributos como titulo, autor, ISBN, numeroPaginas
+y disponible.
+• Implementar los m´etodos prestar(), devolver() y estaDisponible().
+• Crear varios objetos Libro y simular el proceso de pr´estamo y devoluci´on.
+Resultado Esperado: Los estudiantes deben comprender c´omo manejar estados internos de un objeto y c´omo reflejar cambios de estado mediante m´etodos.
+4. Ejercicio Pr´actico 3: Modelado de una Clase para Manejo
+de Inventario (45 minutos)
+Objetivo: Implementar una clase Producto para gestionar un inventario de
+una tienda, con atributos como nombre del producto, c´odigo, cantidad en stock,
+y precio. Crear m´etodos para a˜nadir y reducir stock, y para calcular el valor
+total del inventario disponible.
+• Definir la clase Producto con los atributos mencionados.
+• Implementar m´etodos como a~nadirStock(int cantidad), reducirStock(int
+cantidad) y calcularValorInventario().
+• Crear objetos Producto y simular la gesti´on de un inventario.
+2
+Resultado Esperado: Los estudiantes deben aplicar los conceptos de m´etodos
+y atributos para modelar un sistema b´asico de inventario, entendiendo la l´ogica
+detr´as de la gesti´on de stock.
+5. Ejercicio Pr´actico 4: Modelado de una Clase para Gesti´on
+de Perfumes (45 minutos)
+Objetivo: Implementar una clase Perfume que represente un perfume con
+atributos como nombre, marca, capacidad (en mililitros), y precio. Crear m´etodos
+para aplicar el perfume (reducir la cantidad disponible), consultar la cantidad
+restante y ajustar el precio.
+• Definir la clase Perfume con atributos como nombre, marca, capacidad,
+y precio.
+• Implementar los m´etodos aplicarPerfume(double cantidad), consultarCantidadRestante()
+y ajustarPrecio(double nuevoPrecio).
+• Crear objetos Perfume y simular el uso del perfume y ajustes en el precio.
+Resultado Esperado: Los estudiantes deben entender c´omo gestionar atributos relacionados con productos de consumo, como la reducci´on de cantidad al
+aplicar el producto y la actualizaci´on de su precio.
+6. Proyecto Final: Sistema de Reservas de Hotel (60 minutos)
+Objetivo: Desarrollar una clase ReservaHotel que permita gestionar las reservas en un hotel. La clase debe incluir atributos como el nombre del cliente, fecha
+de entrada, fecha de salida, y n´umero de habitaci´on. Implementar m´etodos para
+crear una nueva reserva, cancelar una reserva y consultar la informaci´on de la
+reserva.
+• Crear la clase ReservaHotel con los atributos correspondientes.
+• Implementar los m´etodos nuevaReserva(), cancelarReserva() y consultarReserva().
+• Crear varios objetos ReservaHotel y simular el proceso de gesti´on de
+reservas en un hotel.
+Resultado Esperado: Los estudiantes deben ser capaces de modelar un sistema de reservas aplicando los conceptos de clases, atributos y m´etodos.
+7. Cierre y Reflexi´on (30 minutos)
+Objetivo: Revisar el proyecto final, resolver dudas y discutir las posibles mejoras o extensiones del sistema.
+• Presentar el c´odigo final y su funcionamiento.
+3
+• Discusi´on abierta sobre los desaf´ıos encontrados y c´omo se resolvieron.
+• Ideas para mejorar o escalar el proyecto.
+Evaluaci´on
+La evaluaci´on ser´a continua durante el taller, basada en la participaci´on activa
+y la implementaci´on de los ejercicios pr´acticos. Al finalizar el taller, se valorar´a
+el proyecto final.
+Notas Adicionales
+• Los estudiantes deben estar familiarizados con los conceptos b´asicos de
+Java y haber trabajado previamente con un entorno de desarrollo.
+• Se recomienda revisar previamente los fundamentos te´oricos para aprovechar
+al m´aximo las actividades pr´acticas del taller.
+Este taller est´a dise˜nado para que los estudiantes se familiaricen con el proceso de modelado y programaci´on de problemas del mundo real mediante la
+creaci´on de clases individuales en Java.
+4
