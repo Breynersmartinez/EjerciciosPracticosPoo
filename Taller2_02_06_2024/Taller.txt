@@ -79,21 +79,3 @@ reserva.
 • Crear varios objetos ReservaHotel y simular el proceso de gesti´on de
 reservas en un hotel.
 Resultado Esperado: Los estudiantes deben ser capaces de modelar un sistema de reservas aplicando los conceptos de clases, atributos y m´etodos.
-7. Cierre y Reflexi´on (30 minutos)
-Objetivo: Revisar el proyecto final, resolver dudas y discutir las posibles mejoras o extensiones del sistema.
-• Presentar el c´odigo final y su funcionamiento.
-3
-• Discusi´on abierta sobre los desaf´ıos encontrados y c´omo se resolvieron.
-• Ideas para mejorar o escalar el proyecto.
-Evaluaci´on
-La evaluaci´on ser´a continua durante el taller, basada en la participaci´on activa
-y la implementaci´on de los ejercicios pr´acticos. Al finalizar el taller, se valorar´a
-el proyecto final.
-Notas Adicionales
-• Los estudiantes deben estar familiarizados con los conceptos b´asicos de
-Java y haber trabajado previamente con un entorno de desarrollo.
-• Se recomienda revisar previamente los fundamentos te´oricos para aprovechar
-al m´aximo las actividades pr´acticas del taller.
-Este taller est´a dise˜nado para que los estudiantes se familiaricen con el proceso de modelado y programaci´on de problemas del mundo real mediante la
-creaci´on de clases individuales en Java.
-4
