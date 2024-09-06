@@ -18,6 +18,10 @@ Contenido del Taller
 • Breve repaso de los conceptos b´asicos de POO: clases, objetos, m´etodos y
 atributos.
 1
+
+
+
+
 2. Ejercicio Pr´actico 1: Modelado de una Clase Simple (45
 minutos)
 Objetivo: Crear una clase CuentaBancaria que represente una cuenta de
@@ -42,6 +46,15 @@ y disponible.
 • Implementar los m´etodos prestar(), devolver() y estaDisponible().
 • Crear varios objetos Libro y simular el proceso de pr´estamo y devoluci´on.
 Resultado Esperado: Los estudiantes deben comprender c´omo manejar estados internos de un objeto y c´omo reflejar cambios de estado mediante m´etodos.
+
+
+
+
+
+
+
+
+
 4. Ejercicio Pr´actico 3: Modelado de una Clase para Manejo
 de Inventario (45 minutos)
 Objetivo: Implementar una clase Producto para gestionar un inventario de
@@ -56,6 +69,12 @@ cantidad) y calcularValorInventario().
 Resultado Esperado: Los estudiantes deben aplicar los conceptos de m´etodos
 y atributos para modelar un sistema b´asico de inventario, entendiendo la l´ogica
 detr´as de la gesti´on de stock.
+
+
+
+
+
+
 5. Ejercicio Pr´actico 4: Modelado de una Clase para Gesti´on
 de Perfumes (45 minutos)
 Objetivo: Implementar una clase Perfume que represente un perfume con
@@ -69,6 +88,11 @@ y ajustarPrecio(double nuevoPrecio).
 • Crear objetos Perfume y simular el uso del perfume y ajustes en el precio.
 Resultado Esperado: Los estudiantes deben entender c´omo gestionar atributos relacionados con productos de consumo, como la reducci´on de cantidad al
 aplicar el producto y la actualizaci´on de su precio.
+
+
+
+
+
 6. Proyecto Final: Sistema de Reservas de Hotel (60 minutos)
 Objetivo: Desarrollar una clase ReservaHotel que permita gestionar las reservas en un hotel. La clase debe incluir atributos como el nombre del cliente, fecha
 de entrada, fecha de salida, y n´umero de habitaci´on. Implementar m´etodos para
