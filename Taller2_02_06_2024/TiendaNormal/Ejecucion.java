@@ -7,7 +7,7 @@ public class Ejecucion {
     ArrayList<Producto> Productos = new ArrayList<Producto>();
     boolean tr = true;
     while(tr){
-    System.out.println(" Tienda de Breiner ");
+    System.out.println(" Tienda de Breiner t");
     System.out.println(" c.añadir productos  ");
     System.out.println(" +.añadir unidades a productos en stock ");
     System.out.println(" -.Reducir unidades de productos en stock");
@@ -17,6 +17,7 @@ public class Ejecucion {
     switch(opcion){
         case "c":
         //Creacion de nuevos los productos para la tienda
+        
         System.out.println(" Nombre del producto             ");
         String nombre = scanner.nextLine();
         System.out.println(" Codigo del producto            ");
