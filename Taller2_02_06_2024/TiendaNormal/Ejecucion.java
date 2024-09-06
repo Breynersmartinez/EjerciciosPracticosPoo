@@ -1,22 +1,12 @@
-import java.util.Scanner;
 import java.util.ArrayList;
-public class Ejecucion {
-    /*4. Ejercicio Pr´actico 3: Modelado de una Clase para Manejo
-de Inventario (45 minutos)
-Objetivo: Implementar una clase Producto para gestionar un inventario de
-una tienda, con atributos como nombre del producto, c´odigo, cantidad en stock,
-y precio. Crear m´etodos para a˜nadir y reducir stock, y para calcular el valor
-total del inventario disponible.
-• Definir la clase Producto con los atributos mencionados.
-• Implementar m´etodos como a~nadirStock(int cantidad), reducirStock(int
-cantidad) y calcularValorInventario().
-• Crear objetos Producto y simular la gesti´on de un inventario. */
+import java.util.Scanner;
 
-public static void main(String[] args)throws Exception{
-    Scanner scanner = new Scanner(System.in);
-    ArrayList<Producto> productos = new ArrayList<Producto>();
-    boolean bucle = true;
-    while(bucle){
+public class Ejecucion {
+    public static void main(String[] args) throws Exception {
+         Scanner scanner = new Scanner(System.in);
+    ArrayList<Producto> Productos = new ArrayList<Producto>();
+    boolean tr = true;
+    while(tr){
     System.out.println(" Tienda de Breiner ");
     System.out.println(" c.añadir productos  ");
     System.out.println(" +.añadir unidades a productos en stock ");
@@ -36,7 +26,7 @@ public static void main(String[] args)throws Exception{
         System.out.println(" precio dl producto por unidad  ");
         Double precio = scanner.nextDouble();
         
-       Producto.añadir( productos, nombre,  codigo,  cantidad,  precio);
+       Producto.añadirProducto( Productos, nombre,  codigo,  cantidad,  precio);
         
         break;
         case "+":
@@ -45,6 +35,7 @@ public static void main(String[] args)throws Exception{
         int codigoañadir=scanner.nextInt();
         System.out.println(" Unidades para añadir");
         int unidadesañadir=scanner.nextInt();
+        Producto.añadir(Productos, codigoañadir,unidadesañadir);
         
         break;
         case "-":
@@ -56,20 +47,20 @@ public static void main(String[] args)throws Exception{
         break;
         case "l":
         // Mostrar productos añadidos
-        for(Producto l : productos){
-            System.out.println(l.toString());
+        for( Producto l: Productos){
+    System.out.println(l.toString());
         }
         break;
         case "t":
         // proceso calculo total del inventario
-
+        Double valortl = Producto.calcularValorInventario(Productos);
+       System.out.println("Valor total del inventario: " + valortl);
         break;
 
         default:
         System.out.println("opcion no encontrada Vuelva a intentarlo");
     }
-}
+    }
 
+    }
 }
-}
-
