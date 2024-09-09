@@ -40,6 +40,9 @@ public class EjecucuionHotel {
                        
                       // Cancelar reserva
                         case "-":
+                        System.out.println( " Numero de la habitacio");
+                        int numcancel = scanner.nextInt();
+                        Hotel.cancelarRecerva(clientes, numcancel);
                        break;
                        
                        

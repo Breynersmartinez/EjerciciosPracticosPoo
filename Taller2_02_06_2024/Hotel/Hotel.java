@@ -24,6 +24,20 @@ clientes.add(hotel);
 System.out.println(" Cliente " + hotel.toString());
 }
 
+public static void cancelarRecerva(ArrayList<Hotel>clientes, int nHabitacion)
+{
+for ( Hotel hotel : clientes)
+{
+    if (hotel.nHabitacion == nHabitacion) {
+        clientes.remove(hotel);
+        System.out.println("  reserva eliminada : " + hotel.toString());
+    } else
+    {
+System.out.println(" Reserva no eliminada " + hotel.toString());
+    }
+    return;
+}
+}
     public String toString()
     {
         return  " Cliente: { Nombre: "+nombre+", Fecha de entrada:"+  fechaEn+",  Fecha de salida:"+fechaSal+",  Numero de habitacion:"+nHabitacion+ " } ";
