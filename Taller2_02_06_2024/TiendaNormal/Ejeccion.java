@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Ejecucion {
+public class Ejeccion {
     public static void main(String[] args) throws Exception {
          Scanner scanner = new Scanner(System.in);
     ArrayList<Producto> Productos = new ArrayList<Producto>();

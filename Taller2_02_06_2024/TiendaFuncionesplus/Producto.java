@@ -3,13 +3,145 @@ import java.util.ArrayList;
 
 
 class Producto{
-    //atributos 
+    //apublic int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(Double precio) {
+        this.precio = precio;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(Double precio) {
+        this.precio = precio;
+    }
+
+    tributos 
     private String NombreProducto;
     private int codigo;
+public c getString() {
+        return String;
+    }
+
+    public Producto(String nombreProducto, int codigo, int cantidad, Double precio) {
+    NombreProducto = nombreProducto;
+    this.codigo = codigo;
+    this.cantidad = cantidad;
+    this.precio = precio;
+}
+
+    public Producto(String nombreProducto, int cantidad, Double precio) {
+        NombreProducto = nombreProducto;
+        this.cantidad = cantidad;
+        this.precio = precio;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(Double precio) {
+        this.precio = precio;
+    }
+
+    public void setString(c string) {
+        String = string;
+    }
     private int cantidad;
     private Double precio;
     
-    //Constructor
+    /
+
+    public String getNombreProducto() {
+        return NombreProducto;
+    }
+
+    public void setNombreProducto(String nombreProducto) {
+        NombreProducto = nombreProducto;
+    }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+    public int getCantidad() {
+        return cantidad;
+    }
+
+    public void setCantidad(int cantidad) {
+        this.cantidad = cantidad;
+    }
+
+    public void setPrecio(Double precio) {
+        this.precio = precio;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public Double getPrecio() {
+        return precio;
+    }/Constructor
     public Producto( String  NombreProducto, int codigo, int cantidad, Double precio){
         this.NombreProducto = NombreProducto;
         this.codigo = codigo;
@@ -76,8 +208,15 @@ class Producto{
         }
         return valorTotal;
     }
-    public String toString(){
-        return "Producto { Nombre del producto: "+NombreProducto+", Codigo del producto: "+codigo+", Cantidad de unidades: "+cantidad+", Precio del producto: "+precio+"}";
+    @Override
+    public String toString() {
+        return "Producto [NombreProducto=" + NombreProducto + ", codigo=" + codigo + ", cantidad=" + cantidad
+                + ", precio=" + precio + "]";
     }
 }
 
+@Override
+   public String toString() {
+      return "Producto [NombreProducto=" + NombreProducto + ", codigo=" + codigo + ", cantidad=" + cantidad
+            + ", precio=" + precio + "]";
+   }

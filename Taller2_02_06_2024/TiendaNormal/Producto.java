@@ -10,6 +10,40 @@ cantidad) y calcularValorInventario().
 • Crear objetos Producto y simular la gesti´on de un inventario. */
 import java.util.ArrayList;
 class Producto{
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+    public void setCantidad(int cantidad) {
+        this.cantidad = cantidad;
+    }
+
+    public void setPrecio(Double precio) {
+        this.precio = precio;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public int getCantidad() {
+        return cantidad;
+    }
+
+    public Double getPrecio() {
+        return precio;
+    }
+
+
+
     private String nombre;
     private int codigo;
     private int cantidad;
@@ -66,12 +100,13 @@ class Producto{
         for (Producto producto : productos) {
             valorTotal += producto.cantidad * producto.precio;
         }
-        return valorTotal;
-    }
-
-
-
-    public String toString(){
-       return "Producto: { Nombre del producto: "+nombre+", codigo: "+codigo+", cantidad:   "+cantidad+",   precio: "+precio+"}"; 
+    @Override
+        public String toString() {
+            return "Producto [nombre=" + nombre + ", codigo=" + codigo + ", cantidad=" + cantidad + ", precio=" + precio
+                    + ", getNombre()=" + getNombre() + ", getCodigo()=" + getCodigo() + ", getCantidad()="
+                    + getCantidad() + ", getPrecio()=" + getPrecio() + ", getClass()=" + getClass() + ", hashCode()="
+                    + hashCode() + ", toString()=" + super.toString() + "]";
+        } precio
+                + "]";
     }
 }
