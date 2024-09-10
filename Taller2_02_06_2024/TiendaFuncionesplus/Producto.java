@@ -47,8 +47,8 @@ class Producto{
 
         System.out.println("Producto no encontrado.");
     }
-    public static void añadir(ArrayList<Producto> productos, String nombre, int codigo, int cantidad, double precio) {
-        Producto producto = new Producto(nombre, codigo, cantidad, precio);
+    public static void añadir(ArrayList<Producto> productos, String  NombreProducto, int codigo, int cantidad, Double precio) {
+        Producto producto = new Producto(nombreProducto, codigo, cantidad, precio);
         productos.add(producto);
         System.out.println("Producto añadido: " + producto.toString());
     }

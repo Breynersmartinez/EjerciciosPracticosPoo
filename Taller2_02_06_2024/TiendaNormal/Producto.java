@@ -48,7 +48,8 @@ class Producto{
         System.out.println("Producto no encontrado.");
  }
  
- public static void reducir(ArrayList<Producto>productos, int codigo, int cantidad){
+ public static void reducir(ArrayList<Producto>productos, int codigo, int cantidad)
+ {
      for (Producto producto : productos) {
             if (producto.codigo == codigo) {
                 producto.cantidad -= cantidad;
@@ -60,6 +61,7 @@ class Producto{
                 }
                 return;
             }
+        
         }
         System.out.println("Producto no encontrado.");
  }

@@ -43,7 +43,7 @@ public class Ejeccion {
         // proceso de eliminar unidades de productos
         System.out.println(" Codigo del producto ");
         int codigoEliminar=scanner.nextInt();
-        System.out.println(" Unidades para añadir");
+        System.out.println(" Unidades para Reducir");
         int unidadeEliminar=scanner.nextInt();
         break;
         case "l":
