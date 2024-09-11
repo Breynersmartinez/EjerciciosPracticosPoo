@@ -48,7 +48,7 @@ public class Ejeccion {
         break;
         case "l":
         // Mostrar productos añadidos
-        for( Producto l: Productos){
+        for( Producto l: Productos){ 
     System.out.println(l.toString());
         }
         break;
@@ -64,4 +64,6 @@ public class Ejeccion {
     }
 
     }
+    // prueba 
+
 }
