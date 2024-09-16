@@ -1,4 +1,7 @@
-package Services;
+package src.Services;
+import src.Entity.NumeroEntity;
+import src.Repository.NumeroRepository;
+
 public class NumeroService {
     private NumeroRepository numeroRepository = new NumeroRepository();
 

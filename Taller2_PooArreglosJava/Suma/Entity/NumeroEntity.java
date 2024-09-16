@@ -1,5 +1,5 @@
 package Entity;
-import java.util.*;
+
 class NumeroEntity
 {
     //Atributos
