@@ -1,6 +1,6 @@
 package Entity;
 
-class NumeroEntity
+public class NumeroEntity
 {
     //Atributos
 private int valor;

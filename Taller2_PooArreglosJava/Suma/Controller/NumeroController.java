@@ -3,7 +3,7 @@ package Controller;
 import Services.NumeroService;
 import java.util.Scanner;
 
-class NumeroController
+public class NumeroController
 {
       private NumeroService numeroService = new NumeroService();
 
