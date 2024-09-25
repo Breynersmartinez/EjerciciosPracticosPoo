@@ -1,19 +1,16 @@
-class EntityCajero
-{
-    //atributos 
+package  src.Entity;
+
+public class EntityCajero {
     private Double saldo;
     private String titular;
     private int numeroCuenta;
 
-    // constructor
     public EntityCajero(Double saldo, String titular, int numeroCuenta) {
         this.saldo = saldo;
         this.titular = titular;
         this.numeroCuenta = numeroCuenta;
     }
 
-
-    //Getters y Setters
     public Double getSaldo() {
         return saldo;
     }
@@ -37,13 +34,4 @@ class EntityCajero
     public void setNumeroCuenta(int numeroCuenta) {
         this.numeroCuenta = numeroCuenta;
     }
-
-//Metodo toSring()
-    @Override
-    public String toString() {
-        return "Cajero [saldo=" + saldo + ", titular=" + titular + ", numeroCuenta=" + numeroCuenta + "]";
-    }
-
-
-
 }
