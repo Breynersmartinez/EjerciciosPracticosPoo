@@ -1,7 +1,7 @@
-package src.Repository;
+package Repository;
 import java.util.ArrayList;
 import java.util.List;
-import src.Entity.EntityCajero;
+import Entity.EntityCajero;
 
 public class RepositoryCajero {
     private ArrayList<EntityCajero> movimientos = new ArrayList<>();

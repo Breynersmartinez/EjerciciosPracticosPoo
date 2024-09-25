@@ -1,6 +1,7 @@
 package Controller;
-import src.Services.ServicesCajero;
-import src.Entity.EntityCajero;
+import Entity.EntityCajero;
+import Services.ServicesCajero;
+
 import java.util.Scanner;
 
 
@@ -33,5 +34,11 @@ public class Controller {
             System.out.println("Contraseña incorrecta.");
         }
         
+    }
+
+    public static void main(String[] args) {
+        
+        Controller controller = new Controller();
+        controller.iniciar();
     }
 }
