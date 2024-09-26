@@ -3,13 +3,14 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 import src.Entity.EntityHotel;
+import src.Repository.RepositoryHotel;
 import src.Services.ServicesHotel;
 public class ControllerHotel {
     public  void  correr() 
     {
         Scanner scanner = new Scanner(System.in);
         ArrayList<EntityHotel> clientes = new ArrayList<EntityHotel>();
-        private ServicesHotel servicesHotel = new ServicesHotel();
+     
         
         boolean bucle = true;
         while(bucle)
@@ -38,23 +39,22 @@ public class ControllerHotel {
           System.out.println(" Numero de habitacion "); 
           int nHabitacion = scanner.nextInt();
     
-          EntityHotel entityHotel = new EntityHotel(nombre, fechaEn, fechaSal, nHabitacion);
-          ServicesHotel.añadir(clientes, nombre,  fechaEn,  fechaSal,  nHabitacion);
+         
+
+         EntityHotel entityHotel = new EntityHotel(nombre, fechaEn, fechaSal, nHabitacion);
+         clientes.add(entityHotel);
+
 
         
                        break;
-                       
-                       
                        
                       // Cancelar reserva
                         case "-":
                         System.out.println( " Numero de la habitacio");
                         int numcancel = scanner.nextInt();
+                        
                         ServicesHotel.cancelarRecerva(clientes, numcancel);
                        break;
-                       
-                       
-                       
                        //Consultar informacion de la reserva
                         case "c":
                         for ( EntityHotel consulta : clientes)

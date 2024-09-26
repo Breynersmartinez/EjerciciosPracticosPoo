@@ -1,25 +1,26 @@
 package src.Services;
 import java.util.ArrayList;
+import src.Entity.EntityHotel;
 
-import src.Repository.RepositoryHotel;
 public class ServicesHotel 
 {
 
 
- RepositoryHotel repositoryHotel = new RepositoryHotel();
+ 
 
 
 
-public static void cancelarRecerva(ArrayList<ServicesHotel>clientes, int nHabitacion)
+public static void cancelarRecerva(ArrayList<EntityHotel>clientes, int nHabitacion)
 {
-for ( ServicesHotel servicesHotel : clientes)
+for ( EntityHotel cliente : clientes)
 {
-    if (servicesHotel.nHabitacion == nHabitacion) {
-        clientes.remove(servicesHotel);
-        System.out.println("  reserva eliminada : " + servicesHotel.toString());
+    if (cliente.getnHabitacion() == nHabitacion)
+     {
+        clientes.remove(cliente);
+        System.out.println("  reserva eliminada : " + cliente.toString());
     } else
     {
-System.out.println(" Reserva no eliminada " + servicesHotel.toString());
+System.out.println(" Reserva no eliminada " + cliente.toString());
     }
     return;
 }
