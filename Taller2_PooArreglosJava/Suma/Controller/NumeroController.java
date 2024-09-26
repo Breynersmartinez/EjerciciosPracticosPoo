@@ -21,4 +21,9 @@ public class NumeroController
         int suma = numeroService.sumarNumeros();
         System.out.println("La suma de los dos números es: " + suma);
     }
+      public static void main(String[] args)
+       {
+        NumeroController controller = new NumeroController();
+        controller.iniciar();
+    }
 }
