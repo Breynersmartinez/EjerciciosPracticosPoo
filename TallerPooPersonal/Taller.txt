@@ -1,0 +1,56 @@
+1. Sistema de Gestión de Biblioteca (Nivel Básico)
+Descripción: Crea un sistema de biblioteca donde se puedan realizar las siguientes acciones:
+
+Añadir nuevos libros con propiedades como título, autor y número de páginas.
+Listar todos los libros disponibles.
+Pedir prestado un libro, reduciendo la cantidad disponible.
+Devolver un libro, aumentando la cantidad disponible.
+Objetivos:
+
+Utiliza clases como Libro y Biblioteca.
+Aplica encapsulamiento y métodos getters/setters.
+Implementa un menú interactivo para las acciones.
+2. Sistema de Gestión de Estudiantes (Nivel Intermedio)
+Descripción: Desarrolla un programa que gestione información de estudiantes, cursos y notas:
+
+Crea una clase Estudiante con atributos como nombre, ID, y una lista de notas.
+Implementa una clase Curso donde se puedan añadir estudiantes.
+Añade métodos para calcular el promedio de las notas por estudiante y por curso.
+Crea una funcionalidad para listar a los estudiantes con las mejores y peores calificaciones.
+Objetivos:
+
+Utiliza herencia si deseas crear tipos de estudiantes (por ejemplo, becarios).
+Implementa toString para mostrar información formateada.
+3. Sistema de Reservas de Hotel (Nivel Intermedio)
+Descripción: Expande el sistema de reservas de hotel que ya has comenzado:
+
+Crea diferentes tipos de habitaciones (sencilla, doble, suite) con características propias.
+Añade una funcionalidad de descuento si la reserva es por más de cierta cantidad de días.
+Implementa la posibilidad de cancelar o modificar una reserva.
+Objetivos:
+
+Utiliza herencia para manejar diferentes tipos de habitaciones.
+Aplica sobrecarga de métodos para diferentes opciones de reserva.
+Usa ArrayList para gestionar las reservas.
+4. Sistema de Vehículos de Transporte (Nivel Avanzado)
+Descripción: Diseña un sistema que gestione diferentes tipos de vehículos de transporte:
+
+Crea una clase base Vehiculo y clases derivadas como Auto, Camión, y Motocicleta.
+Añade funcionalidades como capacidad de carga, número de ruedas, y tipo de combustible.
+Implementa una clase Concesionaria donde se puedan agregar vehículos, listar los vehículos por tipo, y calcular el precio total de los vehículos en inventario.
+Objetivos:
+
+Utiliza herencia y polimorfismo.
+Crea una interfaz Conducible para vehículos que puedan ser manejados.
+Aplica el principio de responsabilidad única.
+5. Simulación de una Tienda en Línea (Nivel Avanzado)
+Descripción: Crea una simulación de una tienda en línea:
+
+Implementa clases como Producto, Cliente, CarritoDeCompras y Pedido.
+Añade la funcionalidad de añadir productos al carrito, procesar el pedido, y generar una factura.
+Implementa descuentos especiales para productos en oferta y calcula el costo total de la compra con impuestos.
+Objetivos:
+
+Usa la clase ArrayList para gestionar los productos en el carrito.
+Implementa excepciones para manejar errores como productos fuera de stock.
+Crea un sistema de pagos con diferentes métodos (tarjeta de crédito, débito, etc.).
