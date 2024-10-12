@@ -1,0 +1,32 @@
+Programación Orientada a Objetos 
+
+Los conceptos de la Programación Orientada a Objetos
+ gravitan en conceptos muy bien definidos (Pilares de 
+ la POO, Clase, Atributos, Objetos, relaciones de
+  Composición, Agregación y Uso, Herencia,
+   Polimorfismo, Interfaces, Clases Abstractas, 
+   entre otros). Para la validación se espera que el 
+   estudiante tenga claro los conceptos anteriormente
+    mencionados, para lo cual será importante revisar 
+    y analizar de manera atenta el siguiente Diagrama 
+    de Clases. 
+
+    Usted deberá implementar el código en lenguaje de 
+    programación JAVA, con su respectiva ejecución y 
+    casos de prueba, si requiere refinar el modelo, 
+    está en libertad para agregar atributos y métodos 
+    que permitan orientar la ejecución según su 
+    abstracción y modelamiento, posteriormente, 
+    debe explicar de manera clara y concisa los 
+    siguientes conceptos que se encuentran dentro 
+    del modelo planteado. 
+
+ 
+
+Herencia y polimorfismo 
+
+Composición y agregación 
+
+       3. ¿Qué es más conveniente para el modelo, 
+       utilizar arreglos o utilizar la estructura de 
+       datos ArrayList? 

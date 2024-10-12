@@ -10,7 +10,7 @@ public Consultar(double venta, double comision) {
 }
 
 //Metodo proceso de la clase 
-public double pagar()
+public Double pagar()
 {
     return comision*venta;
 }

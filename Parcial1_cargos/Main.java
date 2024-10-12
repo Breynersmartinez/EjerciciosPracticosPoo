@@ -46,7 +46,10 @@ public class Main {
 
                 for ( Persona pc : persona)
                 {
-                  System.out.println(" Lista de consiltores " + pc.toString()+ "\n Pago total: "+ consultar.pagar());
+                    
+                        System.out.println(" Lista de consultores " + pc.toString()+ "\n Pago total: "+ consultar.pagar());
+                    
+                  
                 }
               
 

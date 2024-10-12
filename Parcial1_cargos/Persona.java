@@ -35,10 +35,13 @@ public static void añadir(ArrayList<Persona>pagos, int id, String nombre, Strin
 Persona persona = new Persona(  id,  nombre,  apellidos);
 pagos.add(persona);
 }
+Nomina nomina = new Nomina(null);
 @Override
+
+
 public String toString() {
     
-    return "Persona [id= " + id + ", nombre= " + nombre + ", apellidos= " + apellidos + "]";
+    return "Persona [id= " + id + ", nombre= " + nombre + ", apellidos= " + apellidos +  "]";
 }
 
 }

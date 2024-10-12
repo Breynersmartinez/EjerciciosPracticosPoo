@@ -1,7 +1,8 @@
 package Parcial1_cargos;
 import java.util.*;
-import Parcial1_cargos.Cargo;
+
 public class Nomina  {
+    
 private ArrayList<Cargo> cargo = new ArrayList<Cargo>() ;
 
 public Nomina(ArrayList<Cargo>cargo) {
@@ -17,6 +18,11 @@ public void generarPagos()
    {
     System.out.println("pago generado "+ c.pagar());
    }
+}
+
+
+public ArrayList<Cargo> getCargo() {
+    return cargo;
 }
 
 
