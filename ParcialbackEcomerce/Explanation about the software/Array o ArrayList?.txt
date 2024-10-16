@@ -1,0 +1,8 @@
+En mi programa decidi utilizar ArrayList en lugar de un arreglo porque necesitaba manejar una cantidad variada de elementos,
+ me parece mas eficiente al momento de añdir los productos, clientes o fotos. A diferencia de los arreglos, que tienen un tamaño
+  fijo desde su creacion, los ArrayList me permiten agregar o eliminar elementos fácilmente durante la ejecución del programa. 
+  Esto me parece mas util en situaciones en las que no se cuántos productos o fotos se van a agregar o si quiero puedo añadir 
+  los productos que sean necesarios.
+   Ademas, los ArrayList ya vienen con métodos incorporados 
+ que facilitan tareas como la búsqueda, eliminación o adición de elementos, lo cual hace que mi código sea más eficiente y sencillo 
+ de manejar.

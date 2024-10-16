@@ -1,34 +1,27 @@
 package ParcialbackEcomerce;
 import java.util.*;
 
+//pedido
 public class Order {
-private Client client;
-private String product;
-private ArrayList<Product> products = new ArrayList<Product>();
-//Fecha
-private String date;
-//
-private int CreditCardNumber;
+    private Client client;
+    private ArrayList<Product> products;
+    private String date;
+    private int creditCardNumber;
 
-public Order(Client client, ArrayList<Product> products, String product, String date, int creditCardNumber) {
-    this.client = client;
-    this.products = products;
-    this.product = product;
-    this.date = date;
-    CreditCardNumber = creditCardNumber;
-}
+    public Order(Client client, ArrayList<Product> products, String date, int creditCardNumber) {
+        this.client = client;
+        this.products = products;
+        this.date = date;
+        this.creditCardNumber = creditCardNumber;
+    }
 
-//Creacion del pedido
-public static void add(ArrayList<Product> products, String product, Client client, String date, int creditCardNumber)
-{
-   Product productd =  new Product( );
-    products.add(productd);
-}
+    public static void add(ArrayList<Product> products, Product product) {
+        products.add(product);
+    }
 
-@Override
-public String toString() {
-    return "Order [client=" + client + ", products=" + product + ", date=" + date + ", CreditCardNumber="
-            + CreditCardNumber + "]";
-}
-
+    @Override
+    public String toString() {
+        return "Order { client= " + client + ", products= " + products + ", date= " + date + ", CreditCardNumber= "
+                + creditCardNumber + " }";
+    }
 }

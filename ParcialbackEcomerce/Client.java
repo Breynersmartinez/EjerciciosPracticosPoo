@@ -37,7 +37,7 @@ clients.add(client);
 
 @Override
 public String toString() {
-    return "Cliente [ Cedula= " + idCard + ", Nombre = " + name + "]";
+    return " Cliente { Cedula= " + idCard + ", Nombre = " + name + " }";
 }
 
 
