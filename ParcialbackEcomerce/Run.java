@@ -2,13 +2,14 @@ package ParcialbackEcomerce;
 import java.util.*;
 
 public class Run {
-    public static void main(String[] args) {
+    public static void main(String[] args)  
+    {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Client> clients = new ArrayList<>();
         ArrayList<Product> products = new ArrayList<>();
        
 
-        // bucle
+        // bucle          
         boolean loop = true;
         while (loop) {
             System.out.println(" Elige la opcion ");
