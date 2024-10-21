@@ -1,0 +1,5 @@
+Composición y Agregación: En mi clase Impresion, he utilizado un ArrayList de objetos de la clase Foto, 
+lo cual es un ejemplo de composición, porque una impresión está compuesta por varias fotos.
+ Esto significa que la clase Impresion no tiene sentido sin las fotos que la componen. Además, en la clase 
+ Pedido, he agregado una relación con Cliente y con Producto. Esto es agregación, porque un pedido puede 
+ existir sin los clientes o productos específicos, pero incluye estos elementos para funcionar.

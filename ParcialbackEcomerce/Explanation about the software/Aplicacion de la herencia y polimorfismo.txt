@@ -1,0 +1,6 @@
+Herencia y Polimorfismo: Tengo una clase base llamada Producto, que define las características básicas de un producto, 
+como su número. A partir de esa clase, he creado otras clases como Impresion y Camara, que heredan de Producto. Esto es 
+herencia, ya que ambas clases heredan los atributos y métodos de Producto. Además, el polimorfismo entra en juego cuando 
+puedo tratar a un objeto de las clases derivadas (Impresion o Camara) como si fuera un objeto de la clase base Producto. 
+Esto me permite manejar ambos tipos de productos de manera uniforme en mi programa, a pesar de que son productos diferentes.
+
