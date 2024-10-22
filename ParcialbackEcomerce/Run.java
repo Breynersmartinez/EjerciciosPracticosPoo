@@ -64,10 +64,12 @@ public class Run {
                         String brand = scanner.nextLine();
                         System.out.println(" Ingrese el modelo de la camara Con el que prefier la foto ");
                         String model = scanner.nextLine();
+
                         Camera camera = new Camera(2, brand, model); // Creación de Camara
                        
                         products.add(camera);
                     }
+                    
                     break;
 
                 default:
