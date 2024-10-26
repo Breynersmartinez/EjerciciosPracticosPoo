@@ -1,7 +1,7 @@
-import java . util . Random ;
- import java . util . Scanner ;
+import java . util . * ;
 
- class Personaje extends JuegoLucha {
+
+ class Personaje  {
  private String nombre ;
  private int puntosDeVida ;
 
@@ -10,7 +10,7 @@ import java . util . Random ;
 
  // Constructor para inicializar los datos del personaje
  public Personaje ( String nombre ) {
-    super(nombre, nombre);
+   
 
     
  this . nombre = nombre ;

@@ -1,6 +1,7 @@
 abstract class Account {
     protected String accountNumber;
     protected double balance;
+     private double annualInterestRate;
 
     public Account(String accountNumber, double balance) {
         this.accountNumber = accountNumber;
@@ -21,5 +22,10 @@ abstract class Account {
 
     public double getBalance() {
         return balance;
+    }
+    public void calculateMonthlyInterest() {
+        double interest = (balance * annualInterestRate) / 12;
+        balance += interest;
+        System.out.println("Intereses mensuales calculados: $" + interest);
     }
 }

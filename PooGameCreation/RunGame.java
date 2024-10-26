@@ -1,5 +1,5 @@
 import java.util.*;
-public class Run {
+public class RunGame {
 // Metodo principal que ejecuta el juego
 public static void main ( String [] args ) {
      Scanner scanner = new Scanner ( System . in ) ;
@@ -10,7 +10,7 @@ public static void main ( String [] args ) {
     System.out.print(" Introduce el nombre del jugador 2:") ;
      String nombre2 = scanner . nextLine () ;
     
-     JuegoLucha juego = new JuegoLucha ( nombre1 , nombre2 ) ;
-     juego.iniciarPelea () ;
+     Personaje juego = new JuegoLucha(nombre1, nombre2, nombre2);
+    juego.iniciarPelea();
      }
 }

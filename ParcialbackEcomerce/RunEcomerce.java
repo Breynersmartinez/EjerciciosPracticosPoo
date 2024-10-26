@@ -1,7 +1,7 @@
 package ParcialbackEcomerce;
 import java.util.*;
 
-public class Run {
+public class RunEcomerce {
     public static void main(String[] args)  
     {
         Scanner scanner = new Scanner(System.in);
@@ -40,7 +40,8 @@ public class Run {
                         // Crear un nuevo producto de tipo impresión
                         System.out.println("Ingrese el color de la impresión: ");
                         String color = scanner.nextLine();
-                        Impression impression = new Impression(number, color);
+                        //HERENCIA APLICADA 
+                        Product impression = new Impression(number, color);
                     
                      
                         products.add(impression); // Añadir el producto al pedido
@@ -64,8 +65,8 @@ public class Run {
                         String brand = scanner.nextLine();
                         System.out.println(" Ingrese el modelo de la camara Con el que prefier la foto ");
                         String model = scanner.nextLine();
-
-                        Camera camera = new Camera(2, brand, model); // Creación de Camara
+                        //HERENCIA APLICADA
+                        Product camera = new Camera(2, brand, model); // Creación de Camara
                        
                         products.add(camera);
                     }

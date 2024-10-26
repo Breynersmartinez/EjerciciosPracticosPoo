@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Run {
+public class RunBank {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
@@ -13,7 +13,7 @@ public class Run {
         Client client1 = new Client("C001", clientName);
         
         System.out.println("Apertura de cuenta: Cuenta de Ahorros.");
-        SavingsAccount savingsAccount = new SavingsAccount("A001", 1000.0, 0.02);
+        Account savingsAccount = new SavingsAccount("A001", 1000.0, 0.02);
         client1.addAccount(savingsAccount);
         bank.addClient(client1);
         
