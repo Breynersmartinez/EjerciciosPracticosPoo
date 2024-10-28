@@ -1,11 +1,11 @@
-public class JuegoLucha extends Personaje {
+public class JuegoLucha {
     private Personaje jugador1 ;
      private Personaje jugador2 ;
     
     
     // Constructor para inicializar los personajes
-     public JuegoLucha ( String nombre1 , String nombre2, String nombre ) {
-        super(nombre);
+     public JuegoLucha ( String nombre1, String nombre2 ) {
+       
         
      this . jugador1 = new Personaje ( nombre1 ) ;
      this . jugador2 = new Personaje ( nombre2 ) ;
