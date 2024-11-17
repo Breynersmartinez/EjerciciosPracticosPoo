@@ -1,16 +1,24 @@
-public class FloorButton extends Button
-{
-  public static void PanelFloorButtons()
-  {
-       System.out.println("  Asensor UCC ");
+// Botón para pisos
+class FloorButton extends Button {
+    public FloorButton(String type, String state) {
+        super(type, state);
+    }
+
+
+
+    //Metodo de botones de subir, bajar, emergencia y salir de las opciones 
+    public static void displayPanel() {
+     System.out.println("  Asensor UCC ");
     // Simbolo String Subir
     String goUp = "\u2191";
     // Simbolo String bajar
     String goDown = "\u2193";
-    System.out.println("_______________");
-    System.out.println("[s."+ goUp + "]");
-    System.out.println("[b."+goDown+ "]");
-    System.out.println("_______________");
+      //Simbolo String emergencia 
+     String Emergency = " \u26A0";
     
-  }
+         System.out.println("_________________________________________");
+        System.out.println("[s: Subir "+ goUp +"] [b: Bajar "+goDown+"] ");
+        System.out.println("[e: Emergencia "+ Emergency+"] [ q: Salir ]");
+         System.out.println("__________________________________________");
+    }
 }
