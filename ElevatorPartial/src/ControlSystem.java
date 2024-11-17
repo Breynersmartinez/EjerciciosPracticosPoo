@@ -1,3 +1,5 @@
+package src;
+
 import java.util.*;
 // Coordina las operaciones
 class ControlSystem {
@@ -50,10 +52,14 @@ class ControlSystem {
      
     }
 
-    // metodo que Maneja de los pisos del asensor
+    // metodo privado que Maneja de los pisos del asensor
     private void handleFloorSelection(Scanner scanner) {
+        Button floorButton = new FloorButton("Botónes del tablero de la  de puerta", "Activos");
+        System.out.println(floorButton.toString());
+
         System.out.println("Seleccione un piso (1-5):");
-        Button doorButton = new DoorButton("Botón de puerta", "Activo");
+        
+
          DoorButton.PanelDoorButtons();
         try {
             int selectedFloor = Integer.parseInt(scanner.nextLine());
@@ -87,8 +93,11 @@ class ControlSystem {
     System.out.println(textEmoji);
       
   }
+  //______________________________________________________//
   
     private void handleDoorOperation(Scanner scanner) {
+        Button doorButton = new DoorButton("Botónes de estado de las puertas", "Activos");
+        System.out.println(doorButton.toString());
         System.out.println("Operar puertas:  (a: Abrir <>)");
          System.out.println("Operar puertas: (c: Cerrar ><)");
         String input = scanner.nextLine();

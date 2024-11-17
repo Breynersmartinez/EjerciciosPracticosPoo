@@ -1,3 +1,4 @@
+package src;
 // Botón para pisos
 class FloorButton extends Button {
     public FloorButton(String type, String state) {
@@ -21,4 +22,11 @@ class FloorButton extends Button {
         System.out.println("[e: Emergencia "+ Emergency+"] [ q: Salir ]");
          System.out.println("__________________________________________");
     }
+
+
+    public  String toString()
+    {
+        return "[ Boton ]: [ Tipo de boton: " + getType() + ", Estado del boton: " +getState()+" ]";
+    }
+    
 }

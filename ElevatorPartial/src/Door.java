@@ -1,3 +1,4 @@
+package src;
 // Representa la puerta del elevador
 class Door {
     private boolean open;

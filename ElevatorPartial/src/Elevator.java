@@ -1,3 +1,4 @@
+package src;
 // Representa el elevador
 class Elevator {
     //Atributo del Piso actual del asensor 

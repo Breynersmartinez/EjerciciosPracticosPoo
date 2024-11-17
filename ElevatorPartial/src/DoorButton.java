@@ -1,3 +1,4 @@
+package src;
 // Botón para puertas
 class DoorButton extends Button {
     public DoorButton(String type, String state) {
@@ -9,7 +10,7 @@ class DoorButton extends Button {
    {
   
        //Simbolo String emergencia 
-            String Emergency = " \u26A0";
+         
             System.out.println("  Asensor UCC ");
                System.out.println("_______________");
           String[] floor = { "[1]", "[2]", "\n [3]", "[4]", "\n [5]" };
@@ -20,4 +21,11 @@ class DoorButton extends Button {
             System.out.println("\n_______________");
             
    }
+
+
+   public  String toString()
+{
+    return "[ Boton ]: [ Tipo de boton: " + getType() + ", Estado del boton: " +getState()+" ]";
 }
+}
+
