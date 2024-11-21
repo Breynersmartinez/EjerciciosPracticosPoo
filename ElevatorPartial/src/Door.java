@@ -1,4 +1,5 @@
 package src;
+import java.util.*;
 // Representa la puerta del elevador
 class Door {
     private boolean open;
@@ -27,4 +28,14 @@ class Door {
             return "Las puertas ya están cerradas.";
         }
     }
+    
+        //metodo del obstaculo en la puerta 
+        public boolean obstacule()
+        {
+                //simulacion de obstaculacion 
+                
+            return Math.random() < 0.1;
+        }
+        
+    
 }
