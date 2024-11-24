@@ -1,4 +1,5 @@
 package src;
+
 // Representa un piso
 class Floor {
     //numero del piso

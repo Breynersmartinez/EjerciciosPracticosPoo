@@ -1,4 +1,5 @@
 package src;
+
 // Botón genérico
 class Button {
     //tipo de boton
@@ -11,6 +12,12 @@ class Button {
         this.state = state;
     }
     
+       public void emergency()
+   {
+         //Simbolo String emergencia 
+     String Emergency =  "EMERGENCIA \u26A0";
+            System.out.println("¡Emergencia activada! Enviando señal  de emergencia..."+Emergency);  
+   }
     
     //Retorna el tipo de boton
     public String getType() {

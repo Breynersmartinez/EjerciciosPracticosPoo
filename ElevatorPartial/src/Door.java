@@ -1,5 +1,7 @@
 package src;
+import java.util.Random;
 import java.util.*;
+
 // Representa la puerta del elevador
 class Door {
     private boolean open;
